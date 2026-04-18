@@ -64,7 +64,6 @@ This project develops a **physics-guided active learning (AL)** framework for da
 
 ## 📈 Learning Curve & Data Efficiency
 ![Learning Curve](results/figure_1_learning_curve.png)
-![figure_1_learning_curve.png](%E5%A4%87%E4%BB%BD5.4/results/figure_1_learning_curve.png)
 
 - Active Learning improves rapidly with limited samples
 - Clear convergence trend under increasing labeling budget
@@ -85,7 +84,6 @@ This project develops a **physics-guided active learning (AL)** framework for da
 
 ## 🎯 Scatter Plots (Vertical Alignment for Direct Comparison)
 ![Scatter Comparison](results/figure_5_scatter_comparison.png)
-![figure_5_scatter_comparison.png](%E5%A4%87%E4%BB%BD5.4/results/figure_5_scatter_comparison.png)
 - 4 × 2 layout: Random (left) vs Active Learning (right)
 - Sample sizes: 300 / 500 / 800 / 1000
 - AL predictions become increasingly concentrated along diagonal
@@ -96,8 +94,7 @@ This project develops a **physics-guided active learning (AL)** framework for da
 ## 📍 Sampling & Uncertainty Behavior
 ![Sampling Distribution](results/figure_2_sampling_distribution.png)
 ![Uncertainty Distribution](results/figure_7_uncertainty_distribution.png)
-![figure_2_sampling_distribution.png](%E5%A4%87%E4%BB%BD5.4/results/figure_2_sampling_distribution.png)
-![figure_7_uncertainty_distribution.png](%E5%A4%87%E4%BB%BD5.4/results/figure_7_uncertainty_distribution.png)
+
 - Active Learning selects samples in **high-uncertainty regions**
 - Improves model where it is most confused
 - Random sampling distributes points uniformly (inefficient)
@@ -106,7 +103,6 @@ This project develops a **physics-guided active learning (AL)** framework for da
 
 ## 📊 RMSE & R² Bar Comparison
 ![RMSE R2 Bar](results/figure_6_rmse_r2_bar.png)
-![figure_6_rmse_r2_bar.png](%E5%A4%87%E4%BB%BD5.4/results/figure_6_rmse_r2_bar.png)
 - Direct side-by-side performance comparison
 - AL overtakes Random at 800 samples
 - At 1000 samples, AL achieves the lowest error
@@ -115,7 +111,6 @@ This project develops a **physics-guided active learning (AL)** framework for da
 
 ## 🗺️ Spatial Concentration Profile
 ![Spatial Profile](results/figure_4_spatial_profile.png)
-![figure_4_spatial_profile.png](%E5%A4%87%E4%BB%BD5.4/results/figure_4_spatial_profile.png)
 - The model reconstructs plume structure accurately
 - Captures multi-source superposition and spatial decay
 - Physics-guided prediction remains smooth and realistic
