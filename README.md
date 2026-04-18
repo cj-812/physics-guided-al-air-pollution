@@ -120,4 +120,36 @@ This project develops a **physics-guided active learning (AL)** framework for da
 ```bash
 # Full pipeline (train + evaluate + plot all figures)
 python main.py
+# ```
+```
 
+
+---
+
+## 🚀 Usage & Reproducibility
+
+### All outputs are automatically saved
+When you run the full pipeline with `python main.py`, the following files are generated:
+- `results/results.csv` – Full quantitative results (RMSE, R²) for all sample budgets
+- `results/figure_*.png` – 7 numbered, publication-ready figures
+- `models/al_final_model.keras` – Trained Active Learning model (1000 samples, best performance)
+
+### 📌 Reproducibility Guarantees
+All experiments are fully reproducible:
+- Fixed global random seed: **42**
+- Fixed train/test split (test_size = 0.2)
+- Unified sampling pool for fair comparison between methods
+- No manual tuning; all parameters are defined in `config.py`
+
+---
+
+## 📁 Project Structure
+```text
+├── config.py              # All hyperparameters (fully reproducible)
+├── main.py                # Full pipeline entry point
+├── data_generator.py       # Gaussian plume model simulation
+├── neural_model.py        # Physics-guided neural network
+├── active_learning.py     # Uncertainty-based sampling strategy
+├── evaluate.py            # Metrics computation & visualization
+├── models/                # Saved trained models
+└── results/               # Figures, CSV outputs
