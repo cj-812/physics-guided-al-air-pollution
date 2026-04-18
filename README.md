@@ -73,7 +73,6 @@ This project develops a **physics-guided active learning (AL)** framework for da
 
 ## 🧪 Physical Consistency Validation
 ![Physical Consistency](results/figure_3_physics_consistency.png)
-![figure_3_physics_consistency.png](%E5%A4%87%E4%BB%BD5.4/results/figure_3_physics_consistency.png)
 - Model correctly learns physical laws:
   - Concentration **increases** with emission strength Q
   - Concentration **decreases** with wind speed u
