@@ -8,13 +8,6 @@ models/
 *.pth
 *.pkl
 
-# 结果文件夹（CSV、图片）
-results/
-*.png
-*.jpg
-*.jpeg
-*.csv
-*.xlsx
 
 # -------------- Python 通用忽略 --------------
 __pycache__/
